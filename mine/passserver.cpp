@@ -38,18 +38,17 @@ namespace cop4530
         auto encryptedOldPassword = encrypt(p.second);
         auto encryptedNewPassword = encrypt(newpassword);
 
-        if (encryptedOldPassword == encryptedNewPassword) // New and old passwords are the same
+        if (encryptedOldPassword == encryptedNewPassword)
             return false;
 
         auto user = table.contains(p.first);
-        if (!user) // User does not exist
+        if (!user)
             return false;
 
         std::pair<std::string, std::string> stored = std::make_pair(p.first, encryptedOldPassword);
-        if (!table.match(stored)) // Old password does not match
+        if (!table.match(stored))
             return false;
 
-        // Update password
         std::pair<std::string, std::string> updated = std::make_pair(p.first, encryptedNewPassword);
         return table.insert(std::move(updated));
     }
@@ -76,8 +75,8 @@ namespace cop4530
 
     std::string PassServer::encrypt(const std::string& str) 
     {
-        const char *salt = "$1$########"; // MD5-based salt
-        char *encrypted = crypt(str.c_str(), salt);
+        const char* salt = "$1$########";
+        char* encrypted = crypt(str.c_str(), salt);
         if (encrypted == nullptr)
             throw std::runtime_error("Encryption failed");
 
