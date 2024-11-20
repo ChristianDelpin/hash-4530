@@ -76,7 +76,19 @@ namespace cop4530
     std::string PassServer::encrypt(const std::string& str) 
     {
         const char* salt = "$1$########";
-        char* encrypted = crypt(str.c_str(), salt);
+        
+		// this line fails currently, rendering the whole project useless.
+		// trying to do *anything* with `encrypted` (printing, reading, etc etc)
+		// causes the program to jump to the throw "Invalid encryption format"
+		// error.
+		// 			THEORY:
+		// the crypt() function is failing at something and causing encrypted
+		// to be set to a nullptr which is not handled via iostream, and in the
+		// creation of encryptedStr from encrypted which is also not handled by
+		// the STL for std::string. 
+		char* encrypted = crypt(str.c_str(), salt);
+
+
         if (encrypted == nullptr)
             throw std::runtime_error("Encryption failed");
 

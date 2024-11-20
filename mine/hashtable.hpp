@@ -190,7 +190,7 @@ namespace cop4530
     }
 
     template <typename K, typename V>
-    bool HashTable<K, V>::write_to_file(const char *filename) const 
+    bool HashTable<K, V>::write_to_file(const char* filename) const 
     {
         std::ofstream outfile(filename);
         if (!outfile)
