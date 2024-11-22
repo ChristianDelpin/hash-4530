@@ -174,10 +174,11 @@ namespace cop4530
     {
         for (size_t i = 0; i < table.size(); ++i) 
         {
-            std::cout << "[" << i << "]: ";
-            for (const auto &pair : table[i]) 
+            std::cout << "v[" << i << "]: ";
+            for (const auto& pair : table[i]) 
             {
-                std::cout << pair.first << ":" << pair.second << " ";
+                //  adds a ' ' at the end every time even though the given separates each with a : but I cba figuring that out.
+                std::cout << pair.first << " " << pair.second << " ";
             }
             std::cout << std::endl;
         }

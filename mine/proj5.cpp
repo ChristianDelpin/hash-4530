@@ -62,9 +62,9 @@ int main()
 				cin >> userSearch;
 
                 if(ps.removeUser(userSearch))
-					cout << endl << userSearch << " found.";
+					cout << endl << "User "<< userSearch << " deleted.";
 				else
-					cout << endl << userSearch << " NOT found.";
+					cout << endl << "*****Error: User not found.  Could not delete user";
                 break;
 			}
             case 'c':

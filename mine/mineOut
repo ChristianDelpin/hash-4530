@@ -1,0 +1,325 @@
+Enter preferred hash table capacity (integer): 
+
+l - Load From File
+a - Add User
+r - Remove User
+c - Change User Password
+f - Find User
+d - Dump HashTable
+s - HashTable Size
+w - Write to Password File
+x - Exit program
+
+Enter choice: Enter username: 
+Enter password: 
+User toh added successfully.
+
+
+l - Load From File
+a - Add User
+r - Remove User
+c - Change User Password
+f - Find User
+d - Dump HashTable
+s - HashTable Size
+w - Write to Password File
+x - Exit program
+
+Enter choice: Enter username: 
+Enter password: 
+User charles added successfully.
+
+
+l - Load From File
+a - Add User
+r - Remove User
+c - Change User Password
+f - Find User
+d - Dump HashTable
+s - HashTable Size
+w - Write to Password File
+x - Exit program
+
+Enter choice: Enter username: 
+Enter password: 
+User frank added successfully.
+
+
+l - Load From File
+a - Add User
+r - Remove User
+c - Change User Password
+f - Find User
+d - Dump HashTable
+s - HashTable Size
+w - Write to Password File
+x - Exit program
+
+Enter choice: Enter username: 
+Enter password: 
+User megan added successfully.
+
+
+l - Load From File
+a - Add User
+r - Remove User
+c - Change User Password
+f - Find User
+d - Dump HashTable
+s - HashTable Size
+w - Write to Password File
+x - Exit program
+
+Enter choice: Enter username: 
+Enter password: 
+User burt added successfully.
+
+
+l - Load From File
+a - Add User
+r - Remove User
+c - Change User Password
+f - Find User
+d - Dump HashTable
+s - HashTable Size
+w - Write to Password File
+x - Exit program
+
+Enter choice: Enter username: 
+Enter password: 
+User sandy added successfully.
+
+
+l - Load From File
+a - Add User
+r - Remove User
+c - Change User Password
+f - Find User
+d - Dump HashTable
+s - HashTable Size
+w - Write to Password File
+x - Exit program
+
+Enter choice: [0]: 
+[1]: megan:YKQLcycX64zFmkoNneToF. 
+[2]: charles:G2fXc7JwBDOoyToJiL2UT0 burt:dKFkCEgpgAHdtD3V9OphQ. 
+[3]: frank:c0ywW1rO.FsCkp18y24XI. 
+[4]: toh:JOChpfZDz9DePzkWcuYkT0 
+[5]: 
+[6]: sandy:oF1YBkqbC7NTEXAhk0eLW. 
+
+
+l - Load From File
+a - Add User
+r - Remove User
+c - Change User Password
+f - Find User
+d - Dump HashTable
+s - HashTable Size
+w - Write to Password File
+x - Exit program
+
+Enter choice: Enter the username to remove: 
+morgan NOT found.
+
+l - Load From File
+a - Add User
+r - Remove User
+c - Change User Password
+f - Find User
+d - Dump HashTable
+s - HashTable Size
+w - Write to Password File
+x - Exit program
+
+Enter choice: Enter the username to remove: 
+sandy found.
+
+l - Load From File
+a - Add User
+r - Remove User
+c - Change User Password
+f - Find User
+d - Dump HashTable
+s - HashTable Size
+w - Write to Password File
+x - Exit program
+
+Enter choice: [0]: 
+[1]: megan:YKQLcycX64zFmkoNneToF. 
+[2]: charles:G2fXc7JwBDOoyToJiL2UT0 burt:dKFkCEgpgAHdtD3V9OphQ. 
+[3]: frank:c0ywW1rO.FsCkp18y24XI. 
+[4]: toh:JOChpfZDz9DePzkWcuYkT0 
+[5]: 
+[6]: 
+
+
+l - Load From File
+a - Add User
+r - Remove User
+c - Change User Password
+f - Find User
+d - Dump HashTable
+s - HashTable Size
+w - Write to Password File
+x - Exit program
+
+Enter choice: Enter username: 
+Enter password: 
+User sandy added successfully.
+
+
+l - Load From File
+a - Add User
+r - Remove User
+c - Change User Password
+f - Find User
+d - Dump HashTable
+s - HashTable Size
+w - Write to Password File
+x - Exit program
+
+Enter choice: Enter username: 
+Enter password: 
+User sandy added successfully.
+
+
+l - Load From File
+a - Add User
+r - Remove User
+c - Change User Password
+f - Find User
+d - Dump HashTable
+s - HashTable Size
+w - Write to Password File
+x - Exit program
+
+Enter choice: Enter the username you want to modify: 
+Enter the password for that user: Enter the new password: 
+Changed password successfully.
+
+
+l - Load From File
+a - Add User
+r - Remove User
+c - Change User Password
+f - Find User
+d - Dump HashTable
+s - HashTable Size
+w - Write to Password File
+x - Exit program
+
+Enter choice: Enter the username you want to modify: 
+Enter the password for that user: Enter the new password: 
+Unable to change password.
+
+
+l - Load From File
+a - Add User
+r - Remove User
+c - Change User Password
+f - Find User
+d - Dump HashTable
+s - HashTable Size
+w - Write to Password File
+x - Exit program
+
+Enter choice: Enter username to find: matt not found.
+
+
+l - Load From File
+a - Add User
+r - Remove User
+c - Change User Password
+f - Find User
+d - Dump HashTable
+s - HashTable Size
+w - Write to Password File
+x - Exit program
+
+Enter choice: Enter username to find: frank found.
+
+
+l - Load From File
+a - Add User
+r - Remove User
+c - Change User Password
+f - Find User
+d - Dump HashTable
+s - HashTable Size
+w - Write to Password File
+x - Exit program
+
+Enter choice: Size of HashTable: 6
+
+
+l - Load From File
+a - Add User
+r - Remove User
+c - Change User Password
+f - Find User
+d - Dump HashTable
+s - HashTable Size
+w - Write to Password File
+x - Exit program
+
+Enter choice: Enter the username to remove: 
+frank found.
+
+l - Load From File
+a - Add User
+r - Remove User
+c - Change User Password
+f - Find User
+d - Dump HashTable
+s - HashTable Size
+w - Write to Password File
+x - Exit program
+
+Enter choice: Size of HashTable: 5
+
+
+l - Load From File
+a - Add User
+r - Remove User
+c - Change User Password
+f - Find User
+d - Dump HashTable
+s - HashTable Size
+w - Write to Password File
+x - Exit program
+
+Enter choice: [0]: 
+[1]: megan:YKQLcycX64zFmkoNneToF. 
+[2]: charles:G2fXc7JwBDOoyToJiL2UT0 burt:dKFkCEgpgAHdtD3V9OphQ. 
+[3]: 
+[4]: toh:JOChpfZDz9DePzkWcuYkT0 
+[5]: 
+[6]: sandy:L1eLy135YkuOZxKJkgl1f1 
+
+
+l - Load From File
+a - Add User
+r - Remove User
+c - Change User Password
+f - Find User
+d - Dump HashTable
+s - HashTable Size
+w - Write to Password File
+x - Exit program
+
+Enter choice: Enter filename to write to: 
+Write successful.
+
+
+l - Load From File
+a - Add User
+r - Remove User
+c - Change User Password
+f - Find User
+d - Dump HashTable
+s - HashTable Size
+w - Write to Password File
+x - Exit program
+
+Enter choice: 
