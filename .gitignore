@@ -34,3 +34,9 @@
 #others
 .vscode
 *.tar
+
+# Temp
+mailmap.txt
+
+# Visual Studio
+.vs/
